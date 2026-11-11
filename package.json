@@ -2,15 +2,18 @@
   "name": "youtube",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "src/index.js"
+    "start": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "express": "^5.3.0"
+    "argon2": "^0.45.2",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "express-fileupload": "^1.6.0"
   }
 }
